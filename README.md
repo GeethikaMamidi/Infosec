@@ -71,6 +71,7 @@ Level 5
 <br>
 Password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 <br>
+<br>
 <p>
 CIA is the abbreviation for Confidentiality, Integrity and Availability; three pillars of effective IT security system which helps in protecting data and securing information in organisations.
 
@@ -79,11 +80,13 @@ CIA is the abbreviation for Confidentiality, Integrity and Availability; three p
 It ensures that data is private and is accessible to authorised personnel only.
 •	Sensitive info(passwords, personal data) is kept secret.
 •	Encryption, authentication, VPNs can be used to enhance confidentiality.
+<br>
 2)	Integrity:
 <br>
 It ensures that data is authentic, accurate and unaltered.
 •	Prevents unauthorised modifications and builds trust.
 •	Methods like hashing, digital signatures and version controls.
+<br>
 3)	Availability:
 <br>
 Availability ensures that systems, networks, and data are accessible to authorized users whenever needed.
@@ -94,3 +97,4 @@ Availability ensures that systems, networks, and data are accessible to authoriz
 Relationship between CIA components:-
 <br>
 All the components are important, improving one affects the other. So, one must make sure that all the three are balanced properly.
+<\p>
