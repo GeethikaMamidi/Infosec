@@ -191,7 +191,7 @@ The secret value is: 906
 **Output:**
 
 ```bash
-Correct usage! Your flag: pwn.college{MdF9rhEM_wGo0KOSlnylWVBuk6O.QX3IDO0wyM1YDM1EzW}
+Correct usage!  Your flag: pwn.college{MdF9rhEM_wGo0KOSlnylWVBuk6O.QX3IDO0wyM1YDM1EzW}
 ```
 
 **Flag:**

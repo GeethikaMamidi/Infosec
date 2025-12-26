@@ -111,7 +111,7 @@ ls /challenge
 **Output:**
 
 ```bash
-Yahaha, you found me! Here is your flag:
+Yahaha,  you found me! Here is your flag:
 pwn.college{UXu4LkdFFPdTG3vELLBYvyMrCUJ.QX4IDO0wyM1YDM1EzW}
 ```
 
