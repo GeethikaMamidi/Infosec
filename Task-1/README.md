@@ -1,317 +1,78 @@
-# Bandit
+# Infosec
 
-## Levels 0-5
-
-### Level 0
-
-**Commands Used**
-
-```bash
-ssh bandit0@bandit.labs.overthewire.org -p 2220
-```
-
-**Password**
-
-```bash
-bandit0
-```
-
-**Commands Used**
-
-```bash
-ls
-```
-
-**Output**
-
-```bash
-readme
-```
-
-**Commands Used**
-
-```bash
-cat readme
-```
-
-**Output**
-
-```bash
-Congratulations on your first steps into the bandit game!!
-Please make sure you have read the rules at https://overthewire.org/rules/
-If you are following a course, workshop, walkthrough or other educational activity,
-please inform the instructor about the rules as well and encourage them to
-contribute to the OverTheWire community so we can keep these games free!
-
-The password you are looking for is: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
-```
-
-### Level 1
-
-**Commands Used**
-
-```bash
-ssh bandit1@bandit.labs.overthewire.org -p 2220
-```
-
-**Password**
-
-```bash
+Bandit levels 0-5
+<br>
+<br>
+Level 0
+<br>
+Username: bandit0
+<br>
+Password: bandit0
+<br>
+command: ssh bandit0@bandit.labs.overthewire.org -p 2220
+<br>
+Result: Password in terminal.
+<br>
 ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
-```
-
-**Commands Used**
-
-```bash
-ls
-```
-
-**Output**
-
-```bash
--
-```
-
-**Commands Used**
-
-```bash
-cat ./-
-```
-
-**Output**
-
-```bash
+<br>
+<br>
+Level 1
+<br>
+Password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+<br>
+command: ssh bandit1@bandit.labs.overthewire.org -p 2220
+<br>
+steps: ls,cat
+<br>
+Result: Password in readme file.
+<br>
 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
-```
-
-### Level 2
-
-**Commands Used**
-
-```bash
-ssh bandit2@bandit.labs.overthewire.org -p 2220
-```
-
-**Password**
-
-```bash
-263JGJPfgU6LtdEvgfWU1XP5yac29mFx
-```
-
-**Commands Used**
-
-```bash
-ls
-```
-
-**Output**
-
-```bash
---spaces in this filename--
-```
-
-**Commands Used**
-
-```bash
-cat ./--spaces\ in\ this\ filename--
-```
-
-**Output**
-
-```bash
+<br>
+<br>
+Level 2
+<br>
+Password: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+<br>
+command: ssh bandit2@bandit.labs.overthewire.org -p 2220
+<br>
+steps: ls,cat ./-
+<br>
+Result: Password in - located in the home directory.
+<br>
 MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
-```
-
-### Level 3
-
-**Commands Used**
-
-```bash
-ssh bandit3@bandit.labs.overthewire.org -p 2220
-```
-
-**Password**
-
-```bash
-MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
-```
-
-**Commands Used**
-
-```bash
-ls
-```
-
-**Output**
-
-```bash
-inhere
-```
-
-**Commands Used**
-
-```bash
-cd inhere
-ls -a
-```
-
-**Output**
-
-```bash
-.  ..  ...Hiding-From-You
-```
-
-**Commands Used**
-
-```bash
-cat ./...Hiding-From-You
-```
-
-**Output**
-
-```bash
+<br>
+<br>
+Level 3
+<br>
+Password: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+<br>
+command: ssh bandit3@bandit.labs.overthewire.org -p 2220
+<br>
+steps: ls,cat ./--spaces\ in\ this\ filename--
+<br>
+Result: Password in a file with spaces in its name.
+<br>
 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
-```
-
-### Level 4
-
-**Commands Used**
-
-```bash
-ssh bandit4@bandit.labs.overthewire.org -p 2220
-```
-
-**Password**
-
-```bash
-2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
-```
-
-**Commands Used**
-
-```bash
-ls
-```
-
-**Output**
-
-```bash
-inhere
-```
-
-**Commands Used**
-
-```bash
-cd inhere
-ls -a
-```
-
-**Output**
-
-```bash
-.  ..  -file00  -file01  -file02  -file03  -file04  -file05  -file06  -file07  -file08  -file09
-```
-
-**Commands Used**
-
-```bash
-file ./*
-```
-
-**Output**
-
-```bash
-./-file00: data
-./-file01: data
-./-file02: data
-./-file03: data
-./-file04: data
-./-file05: data
-./-file06: data
-./-file07: ASCII text
-./-file08: data
-./-file09: data
-```
-
-**Commands Used**
-
-```bash
-cat ./-file07
-```
-
-**Output**
-
-```bash
+<br>
+<br>
+Level 4
+<br>
+Password: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+<br>
+command: ssh bandit4@bandit.labs.overthewire.org -p 2220
+<br>
+steps: cd inhere,ls,file ./\*
+<br>
+Result: Password in only human-readable file inside the inhere directory.
+<br>
 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
-```
-
-### Level 5
-
-**Commands Used**
-
-```bash
-ssh bandit5@bandit.labs.overthewire.org -p 2220
-```
-
-**Password**
-
-```bash
-4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
-```
-
-**Commands Used**
-
-```bash
-ls
-```
-
-**Output**
-
-```bash
-inhere
-```
-
-**Commands Used**
-
-```bash
-cd inhere
-ls -a
-```
-
-**Output**
-
-```bash
-.            maybehere01  maybehere04  maybehere07  maybehere10  maybehere13  maybehere16  maybehere19
-..           maybehere02  maybehere05  maybehere08  maybehere11  maybehere14  maybehere17
-maybehere00  maybehere03  maybehere06  maybehere09  maybehere12  maybehere15  maybehere18
-```
-
-**Commands Used**
-
-```bash
-find . -type f -size 1033c -readable ! -executable
-```
-
-**Output**
-
-```bash
-./maybehere07/.file2
-```
-
-**Commands Used**
-
-```bash
-cd maybehere07
-cat ./.file2
-```
-
-**Output**
-
-```bash
-HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
-```
-
-# CIA
+<br>
+<br>
+Level 5
+<br>
+Password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+<br>
+<br>
 
 <p>
 CIA is the abbreviation for Confidentiality, Integrity and Availability; three pillars of effective IT security system which helps in protecting data and securing information in organisations.
