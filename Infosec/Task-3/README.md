@@ -32,7 +32,7 @@
 
 • It refers to all the possible entry points and vulnerabilities through which an attacker can exploit.
 <br>
-• There are three components of an attack surface through which a network can be targetted:-
+• There are three components of an attack surface through which a network can be targeted:-
 
 1. Physical attack surface: Occurs through endpoint devices like USB ports and laptops.
 2. Digital attack surface: Includes networks and services like ports, codes and wireless connections.
