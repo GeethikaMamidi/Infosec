@@ -99,7 +99,7 @@ pwn.college{cpodpZCyvHm06nhpr9LAhqpiQ03.QX5EDO0wyM1YDM1EzW}
 ### Challenge 8: Grepping errors
 
 **Goal:**
-Grepping using piping.
+Grepping after redirecting standard error to standard output.
 
 **Commands used:**
 ``` bash
@@ -108,3 +108,41 @@ Grepping using piping.
 
 **Flag:**
 pwn.college{YstlAsB3XS3w6bxBMgErmNUCapH.QX1ATO0wyM1YDM1EzW}
+
+### Challenge 9: Filtering with grep -v
+
+**Goal:**
+Filtering out decoys using grep to get the real flag.
+
+**Commands used:**
+``` bash
+1) /challenge/run | grep -v DECOY
+```
+
+**Flag:**
+pwn.college{UcBqd-8kzX3rZ7ODD1_yNnlYYZq.0FOxEzNxwyM1YDM1EzW}
+
+### Challenge 10: Filtering with sed
+
+**Goal:**
+Filtering out decoys using grep to get the real flag.
+
+**Commands used:**
+``` bash
+1) /challenge/run |sed "s/FAKEFLAG//g"
+```
+
+**Flag:**
+pwn.college{YRXHQETvkSi9SJd2O62h3xXTzDY.01NxQTMywyM1YDM1EzW}
+
+### Challenge 11: Duplicating piped data with tee
+
+Filtering out decoys using grep to get the real flag.
+
+**Commands used:**
+``` bash
+1) /challenge/run |sed "s/FAKEFLAG//g"
+```
+
+**Flag:**
+pwn.college{YRXHQETvkSi9SJd2O62h3xXTzDY.01NxQTMywyM1YDM1EzW}
