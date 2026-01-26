@@ -3,6 +3,7 @@
 ### Challenge 1: Redirecting Output
 
 **Goal:**
+
 Use output redirection to write the word 'PWN' to the filename 'COLLEGE'.
 
 **Commands used:**
@@ -179,6 +180,7 @@ pwn.college{wSkVknxkhYs50MXqmyOfF2gFyTn.QXwgDN1wyM1YDM1EzW}
 ### Challenge 14: Split-piping stderr and stdout
 
 **Goal:**
+
 Redirecting stdout to one and stderr to another program.
 
 **Commands used:**
