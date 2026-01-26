@@ -137,7 +137,8 @@ pwn.college{YRXHQETvkSi9SJd2O62h3xXTzDY.01NxQTMywyM1YDM1EzW}
 
 ### Challenge 11: Duplicating piped data with tee
 
-Filtering out decoys using grep to get the real flag.
+**Goal:**
+Using tee to pipe in data into 'pwn' and '/challenge/college'.
 
 **Commands used:**
 ``` bash
@@ -148,3 +149,57 @@ Filtering out decoys using grep to get the real flag.
 
 **Flag:**
 pwn.college{UHeQpJ6c9zKlyme5pZtMuc1uKdo.QXxITO0wyM1YDM1EzW}
+
+### Challenge 12: Process substitution for Input
+
+**Goal:**
+Using tee to pipe in data into 'pwn' and '/challenge/college'.
+
+**Commands used:**
+``` bash
+1) diff <(/challenge/print_decoys) <(/challenge/print_decoys_and_flag)
+```
+
+**Flag:**
+pwn.college{AOHriymzeugmqCcNQosR17cmZjw.0lNwMDOxwyM1YDM1EzW}
+
+### Challenge 13: Writing to multiple programs
+
+**Goal:**
+Duplicate the output of one command to other two commands.
+
+**Commands used:**
+``` bash
+1) /challenge/hack | tee >(/challenge/the) | tee >(/challenge/planet)
+```
+
+**Flag:**
+pwn.college{wSkVknxkhYs50MXqmyOfF2gFyTn.QXwgDN1wyM1YDM1EzW}
+
+### Challenge 14: Split-piping stderr and stdout
+
+**Goal:**
+Redirecting stdout to one and stderr to another program.
+
+**Commands used:**
+``` bash
+1) /challenge/hack  1> >(/challenge/planet) 2> >(/challenge/the)
+```
+
+**Flag:**
+pwn.college{YdOal1qWm4P3eCxILnY2H01Z2hi.QXxQDM2wyM1YDM1EzW}
+
+### Challenge 15: Named pipes
+
+**Goal:**
+Creating a named pipe and obtaining flag from it.
+
+**Commands used:**
+``` bash
+1) mkfifo /tmp/flag_fifo
+2) /challenge/run > /tmp/flag_fifo
+3) cat /tmp/flag_fifo
+```
+
+**Flag:**
+pwn.college{YBFsxYU9iRENtzOaNhEOCE7kfmB.01MzMDOxwyM1YDM1EzW}
