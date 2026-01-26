@@ -141,8 +141,10 @@ Filtering out decoys using grep to get the real flag.
 
 **Commands used:**
 ``` bash
-1) /challenge/run |sed "s/FAKEFLAG//g"
+1) /challenge/pwn | tee pwn | /challenge/college
+2) cat pwn
+3) /challenge/pwn --secret UHeQpJ6c | /challenge/college
 ```
 
 **Flag:**
-pwn.college{YRXHQETvkSi9SJd2O62h3xXTzDY.01NxQTMywyM1YDM1EzW}
+pwn.college{UHeQpJ6c9zKlyme5pZtMuc1uKdo.QXxITO0wyM1YDM1EzW}
