@@ -142,3 +142,51 @@ cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 ```bash
 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
 ```
+
+### Level 20
+**Commands Used in server 1**
+```bash
+1) ssh bandit20@bandit.labs.overthewire.org -p 2220
+2) ls -l
+3) ./suconnect 4444
+```
+**Commands Used in server 2**
+```bash
+1) ssh bandit20@bandit.labs.overthewire.org -p 2220
+2) nc -l 4444
+3) 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+```
+**Password**
+```bash
+EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+```
+
+### Level 21
+**Commands Used**
+```bash
+1) ssh bandit21@bandit.labs.overthewire.org -p 2220
+2) ls -l /etc/cron.d/
+3) cat /etc/cron.d/cronjob_bandit22
+4) cat /usr/bin/cronjob_bandit22.sh
+5) cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+```
+**Password**
+```bash
+tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
+```
+
+### Level 22
+**Commands Used**
+```bash
+1) ssh bandit22@bandit.labs.overthewire.org -p 2220
+2) cd /etc/cron.d
+3) ls -l
+4) cat /etc/cron.d/cronjob_bandit23
+5) cat /usr/bin/cronjob_bandit23.sh
+6) echo "I am user bandit23" | md5sum
+7) cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+```
+**Password**
+```bash
+0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
+```

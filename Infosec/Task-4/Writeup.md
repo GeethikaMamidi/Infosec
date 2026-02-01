@@ -44,3 +44,10 @@
   <br>
   • Data lifecycle management - Deals with data storage and classification.
 3) It prevents unauthorized access, data breaches and accidental loss.
+
+## PATH Injection/Hijacking
+
+1) PATH is an environment variable which instructs the Operating System to look for the executables upon typing a command.
+3) When a user executes a command, the OS looks through directories listed in PATH variable in order.
+4) If the attacker can inject a directory before the path begins, one can place a malicious file with the same name as command.
+5) This leads to PATH Hijacking, a vulnerability where the attacker manipulates the PATH environment variable to execute a malicious program instead of the original program.
